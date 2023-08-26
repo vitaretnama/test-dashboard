@@ -6,6 +6,8 @@ This is a simple app using Firebase Auth to authenticate users, and using Vuex t
 
 ## Get Started
 
+- npm install
+
 - Runs the app in the development mode.\
 $ npm run dev
 
