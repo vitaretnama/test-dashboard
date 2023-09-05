@@ -11,11 +11,9 @@
     >
       <thead>
         <tr>
-          <th>Nama</th>
-          <th>Username</th>
           <th>Email</th>
-          <th>Phone</th>
-          <th>Website</th>
+          <th>First Name</th>
+          <th>Last Name</th>
         </tr>
       </thead>
     </table>
@@ -31,16 +29,14 @@ import axios from "axios";
 export default {
   name: "MasterUser",
   mounted() {
-    axios.get("https://jsonplaceholder.typicode.com/users").then((response) => {
+    axios.get("https://reqres.in/api/users").then((response) => {
 
       $("#exampleTable").DataTable({
-        data: response.data,
+        data: response.data.data,
         columns: [
-            { data: "name" },
-            { data: "username" },
             { data: "email" },
-            { data: "phone" },
-            { data: "website" },
+            { data: "first_name" },
+            { data: "last_name" },
         ],
         });
     });
@@ -64,3 +60,4 @@ export default {
   color: white;
 }
 </style>
+

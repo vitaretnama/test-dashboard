@@ -26,7 +26,7 @@ const signIn = () => {
     })
     .then(() => {
       if (!signInState.isError) {
-        store.dispatch("getUserAction"); 
+        // store.dispatch("getUserAction"); 
         router.push("/"); 
       }
     });
