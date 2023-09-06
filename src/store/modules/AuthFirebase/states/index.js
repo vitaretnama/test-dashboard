@@ -3,7 +3,7 @@ export const authInitState = {
     isLoading: false,
     isError: false,
     errorMessage: "",
-    data: [],
+    data: { id: null, token: null },
   },
   userDetails: {
     isSignIn: false,

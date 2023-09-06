@@ -1,17 +1,19 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Login from "../views/Login.vue";
 import Home from "../views/Home.vue";
+import NotFound from "../views/NotFound.vue";
 import MasterUser from "../views/MasterUser.vue";
 import { getCurrentUser } from "../api";
+import store from '../store';
 
 const routes = [
   {
-    path: "/login",
+    path: "/",
     name: "Login",
     component: Login,
   },
   {
-    path: "/",
+    path: "/home",
     name: "Home",
     component: Home,
     meta: {
@@ -26,6 +28,10 @@ const routes = [
       },
     ],
   },
+  { 
+    path: '/:pathMatch(.*)*', 
+    component: NotFound
+  },
 ];
 
 const router = createRouter({
@@ -35,8 +41,9 @@ const router = createRouter({
 
 router.beforeEach(async (to, from, next) => {
   const requiresAuth = to.matched.some((record) => record.meta.requiresAuth)
-  if (requiresAuth && !(await getCurrentUser())) {
-    next('/login')
+  var isHasToken = store.state.authentication.signIn?.data?.token != null;
+  if (requiresAuth && !isHasToken) {
+    next('/')
   } else {
     next()
   }

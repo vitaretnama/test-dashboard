@@ -45,6 +45,7 @@ export const signInAction = async (context, { email, password }) => {
       // Replace the following line with your logic to store the user data
       // and manage the authentication state in your Vuex store
       context.commit("successSignIn", user);
+      router.push("/home");
     } else {
       return context.commit("failSignIn", "Could not complete login!!");
     }

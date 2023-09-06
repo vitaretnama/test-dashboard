@@ -23,12 +23,6 @@ const signIn = () => {
     .dispatch("signInAction", {
       email: emailModel.value,
       password: passwordModel.value,
-    })
-    .then(() => {
-      if (!signInState.isError) {
-        // store.dispatch("getUserAction"); 
-        router.push("/"); 
-      }
     });
 };
 
