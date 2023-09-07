@@ -3,7 +3,6 @@ import Login from "../views/Login.vue";
 import Home from "../views/Home.vue";
 import NotFound from "../views/NotFound.vue";
 import MasterUser from "../views/MasterUser.vue";
-import { getCurrentUser } from "../api";
 import store from '../store';
 
 const routes = [

@@ -3,16 +3,9 @@ import {
   beginSignIn,
   successSignIn,
   failSignIn,
-  beginRequestUser,
-  successRequestUser,
-  failRequestUser,
-  successLogOut,
-  failLogOut,
 } from './mutations'
 import {
   signInAction,
-  getUserAction,
-  logOutAction,
 } from './actions'
 
 export const authentication = {
@@ -21,15 +14,8 @@ export const authentication = {
     beginSignIn,
     successSignIn,
     failSignIn,
-    beginRequestUser,
-    successRequestUser,
-    failRequestUser,
-    successLogOut,
-    failLogOut,
   },
   actions: {
     signInAction,
-    getUserAction,
-    logOutAction,
   },
 }

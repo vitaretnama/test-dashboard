@@ -2,7 +2,7 @@
 
 This project was created with [Vite](https://vitejs.dev/).
 
-This is a simple app using Firebase Auth to authenticate users, and using Vuex to manage state.
+This is a simple app using [Fake Api] (https://reqres.in/) to authenticate users, and using Vuex to manage state.
 
 ## Get Started
 
@@ -12,6 +12,6 @@ This is a simple app using Firebase Auth to authenticate users, and using Vuex t
 $ npm run dev
 
 ### Login with this Account :
-- Email : admintest@gmail.com
-- Password : test123 
+- Email : eve.holt@reqres.in
+- Password : pistol 
 

@@ -52,13 +52,13 @@ const validateForm = () => {
     <div class="sm:mx-auto sm:w-full sm:max-w-sm">
       <img
         class="mx-auto h-10 w-auto"
-        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAAAVCAYAAABfXiAOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAPySURBVHgB1ZndddMwFMevQt7pBrgTtEzQZIIWeKMPdbpA0zJAnAHahgVI8gA8QdsJbCZomCBmArIAFffGUuLI+oydHvidoxNLvvqw/9LVlcMA4Zxf4E+EaQ8KItgkxzTDdM8Y+wUeYJvU1gHa/2jCzlQX6y0s98/wpwPV51HJMU22GYOT5HYPkstFUB0aOA/jDtMrR5vHmH4L+7nJ3tdOU++oVO9OCFv3uYLG4EMruR63kpvHpTAh9cA9i1ROMM1w8AcWmxFsrrq+wS5R7DLdCy6D98luUqpH4znTmEYQTuQzBh9IEAYsZgCHLeBpiDAt2A7qILPMqkhjb2pHrXcLdlKotn8IzRFhuoAaSEFkPlSYbUUhqIM+NE/Miz2uApaTYBHsnhi2RBVEEiJMG4oNfOKwo4ZONOVUdgnNM0IBZuWNVwhVdxKQW31Qyo417UbcEUToQEFudYJIpDBPAK9t7bSx4wfNQCsIX/4IZlfUNBPss0PRnuh7BPUhoTOljNxwDNXneonJW5TW8HrAOHNOmqUwuJqekg89Y1vgCT5MDkXo+FxEUAhDvynsCNG+KsjCN/SX4ArJ/Y1bVts2eCIiEnXwOeyWDjS7OvtiVZTRBQn34Mk4PR3j24Fe96r3YnhDlxObPWcseRpcDuffYEz5/XdQWTFtEdr6RC+0NCOlbAbNQu5CFaBJd+nznDkUobqTQhAKChhev3cKsyEIK4IJvK4IQyvlxHcQGpx7USBS5I7FJoHtx+tDJPqf2ozWgkhYbBNGJ0hRDWJVmDohcabZNJvgDZjdYo59DmH30F52ZLpZFUSyFGb8Z3A1Lb94oyCrakthxjK7rSgLqBHL2xBhqC78zsG+gpom1hWaBZFsCuMUZFVtLYz3Rq8wCY1OQsC2f+JMpT1MhsEkVK+BPnXnFFoRica2oxa4BZGsXRnlnIKsqhWujETJwO6jY6hu8BTFLHbpSrDtj9gHvUDanLPQg5wB0zmFJoAzoOA0Dk8PwYFnqwxbvuPYpx7ZtsWp2fjJGgecQSGcSoL3yMdbN8Q6PMfZyHBO0XLe/Tz9lJ7SAXDiaDU5735dvZf9tzCdf19eOupBTLbOPUWIZjpNj5r4ovqM0ApPS4nOQI8GW224T8Jw66znSa/7peJB6GWDfbXEwsZ7o6dOck05CXIG/w/kCjulRHnTpDIeIM3C6AWRWIRZCUJ4iWKJiAidr88ceUmu5H1P0jOP9uvsQYnLLVeFsQsiqQjDoF8WJBj6Uqv8Uzcw2EXCPcxNNiF2jnqmz/x7fP3vpC8pfQSFADDKGlCCQOZ3cIGRlrYeg0Bw0LTkKd03FBHtDLGJdzxM6Tmyf+V5/gJIEcNX/F9GmgAAAABJRU5ErkJggg=="
+        src="https://bdn.id/wp-content/uploads/2021/04/BDN-logo-Thumbnail3.png"
         alt="Your Company"
       />
       <h2
         class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white"
       >
-        Sign in to your account
+        Register your account
       </h2>
     </div>
 
@@ -124,9 +124,9 @@ const validateForm = () => {
         <div>
           <button
             type="submit"
-            class="flex w-full justify-center rounded-md bg-gray-900 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-[#f6bd60] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            class="flex w-full justify-center rounded-md bg-gray-900 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-[#0077b6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Sign in
+            Register
           </button>
         </div>
       </form>

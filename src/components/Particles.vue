@@ -19,7 +19,7 @@ const particlesLoaded = async (container) => {
       :options="{
         background: {
           color: {
-            value: '#386641',
+            value: '#0096c7',
           },
         },
         fullScreen: {

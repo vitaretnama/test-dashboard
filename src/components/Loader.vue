@@ -33,9 +33,7 @@ export default {
   top: 40%;
   width: 25%;
   margin: auto;
-  /* background: #fff; */
   z-index: 999;
-  /* box-shadow: 0px 0px 9px -2px #000; */
   left: 0px;
   right: 0px;
   text-align: center;
